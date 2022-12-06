@@ -1,0 +1,123 @@
+@import url('reset.css');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+/* Corpo */
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:  hsl(0, 0%, 95%);
+}
+
+img {
+    height: 30px;
+    width: 40px;
+}
+
+/* Items */
+
+.global-column-scream {
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    align-items: center;
+}
+
+section {
+    padding: 45px;
+}
+
+button {
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0 1px 5px;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+/* Sessão Sedam */
+
+.section-sedans {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    color: white;
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 10px 0 0 10px;
+}
+
+.sedans-h1 {
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    padding: 20px;
+}
+
+.article-sedans {
+    font-size: 12px;
+    font-family: 'Lexend Deca', sans-serif;
+    opacity: 0.5;
+    padding-bottom: 10px;
+}
+
+.button-sedans {
+    color: hsl(31, 77%, 52%);
+}
+
+/* Sessão Suv's */
+
+.section-suvs {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    color: white;
+    background-color: hsl(184, 100%, 22%);
+    
+}
+
+.h1-suvs {
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    padding: 20px;
+}
+
+.article-suvs {
+    font-size: 12px;
+    font-family: 'Lexend Deca', sans-serif;
+    opacity: 0.5;
+    padding-bottom: 10px;
+}
+
+.button-suvs {
+   color: hsl(184, 100%, 22%);
+}
+
+/* Sessão Luxo */
+
+.section-luxury {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    color: white;
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 10px 10px 0;
+}
+
+.h1-luxury {
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    padding: 20px;
+}
+
+.article-luxury {
+    font-size: 12px;
+    font-family: 'Lexend Deca', sans-serif;
+    opacity: 0.5;
+    padding-bottom: 10px;
+}
+
+.button-luxuty {
+    color: hsl(179, 100%, 13%) ;
+}
+
