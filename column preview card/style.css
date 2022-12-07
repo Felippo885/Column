@@ -8,7 +8,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color:  hsl(0, 0%, 95%);
+    background-color:  hsl(0, 10%, 64%);
 }
 
 img {
@@ -23,10 +23,18 @@ img {
     flex-direction: row;
     margin: 20px;
     align-items: center;
+    box-shadow: 0 1px 10px;
+    border-radius: 10px;
 }
 
 section {
     padding: 45px;
+    height: 450px;
+    width: 300px;
+}
+
+section > p {
+    font-size: 1.600rem;
 }
 
 button {
@@ -35,6 +43,12 @@ button {
     border: none;
     box-shadow: 0 1px 5px;
     font-family: 'Lexend Deca', sans-serif;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(231, 212, 212);
+    transition: 0.6s;
 }
 
 /* Sessão Sedam */
@@ -63,6 +77,7 @@ button {
 
 .button-sedans {
     color: hsl(31, 77%, 52%);
+    margin-top: 50px;
 }
 
 /* Sessão Suv's */
@@ -91,6 +106,7 @@ button {
 
 .button-suvs {
    color: hsl(184, 100%, 22%);
+   margin-top: 50px;
 }
 
 /* Sessão Luxo */
@@ -119,5 +135,6 @@ button {
 
 .button-luxuty {
     color: hsl(179, 100%, 13%) ;
+    margin-top: 50px;
 }
 
