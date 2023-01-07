@@ -1,7 +1,9 @@
 @import url('reset.css');
 
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
 /* Corpo */
+
 body {
     height: 100vh;
     width: 100vw;
@@ -143,6 +145,21 @@ button:hover {
     margin-top: 50px;
 }
 
+/* rodape */
+.attribution {
+    color: #fff;
+    background: #121;
+    padding: 5px;
+    border-radius: 12px;
+    margin-top: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: .700rem;
+}
+.attribution > a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+}
 /* Mobile */
 
 @media (max-width: 600px) {
@@ -152,7 +169,7 @@ button:hover {
         flex-wrap: wrap;
 
         position: relative;
-        right: 50px;
+        right: 10px;
     }
     section {
         height: 250px;
